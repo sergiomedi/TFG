@@ -1,0 +1,43 @@
+# Entornos virtuales
+.venv/
+.venv-ragas/
+venv/
+env/
+
+# Bytecode y cachés
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configuración local y secretos
+.env
+.env.local
+
+# Datos y artefactos (no se versionan)
+data/raw/**
+data/processed/**
+data/index/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/index/.gitkeep
+
+# Copias de seguridad (p.ej. corpus.jsonl.bak de inject_doc.py)
+*.bak
+
+# Logs
+logs/
+*.log
+*.jsonl
+# ...pero el dataset de evaluación y las fuentes curadas SÍ se versionan
+!eval/eval_dataset.jsonl
+
+# IDE
+.idea/
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

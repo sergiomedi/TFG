@@ -1,0 +1,138 @@
+# ============================================================================
+# Configuración por defecto de GRAIA
+# Los valores aquí declarados son los establecidos y justificados en el
+# Capítulo 5 (Diseño) de la memoria. Modificar sólo mediante overrides locales.
+# ============================================================================
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  index: data/index
+  logs: logs
+
+ingesta:
+  user_agent: "GRAIA-academic-crawler/0.1 (+sergiomedinam98@gmail.com)"
+  request_timeout_s: 30
+  max_retries: 3
+  respect_robots_txt: true
+
+  # Procesado de PDF (parser.PdfParser). Las tablas se extraen SIEMPRE a
+  # Markdown (preservan filas/columnas); el OCR se aplica solo a páginas con
+  # capa de texto pobre (escaneadas), evitando duplicar texto nativo.
+  pdf:
+    extract_tables: true
+    enable_ocr: true
+    ocr_lang: spa            # requiere el paquete tesseract-ocr-spa instalado
+    ocr_min_chars: 60        # < este nº de chars en la página -> se intenta OCR
+    ocr_dpi: 200             # resolución de rasterización para OCR
+
+# Contextual Retrieval (Anthropic, 2024): antepone a cada chunk un breve
+# contexto generado por el LLM para situarlo en su documento. Mejora la
+# recuperación de fragmentos "huérfanos". Coste pagado una vez (offline) y
+# cacheado en disco. Desactivar (enabled: false) para indexar sin contexto.
+contextual_retrieval:
+  enabled: true
+  model: llama3.1:8b-instruct-q4_K_M   # modelo de contextualización (Ollama)
+  max_doc_chars: 6000                  # recorte del documento pasado al LLM
+  cache_path: data/processed/context_cache.json
+
+chunking:
+  strategy: recursive          # recursive | fixed
+  chunk_size_tokens: 512
+  chunk_overlap_tokens: 50
+  min_chunk_tokens: 64
+
+embeddings:
+  model_name: intfloat/multilingual-e5-base
+  dim: 768
+  batch_size: 32
+  normalize: true              # requisito del producto interno con IndexFlatIP
+  query_prefix: "query: "      # prefijos específicos de E5
+  passage_prefix: "passage: "
+
+indexacion:
+  backend: faiss
+  index_type: IndexFlatIP      # brute-force, adecuado para ~10^4 chunks
+  metric: ip                   # inner product sobre vectores normalizados
+
+recuperacion:
+  k_candidates: 50             # top-k inicial por canal antes de MMR (ampliado: corpus ETSIIT muy homogéneo semánticamente)
+  k_final: 5                   # contexto pasado al LLM (consultas puntuales)
+  k_final_listing: 10          # contexto ampliado para consultas de listado/agregación (p.ej. "¿qué asignaturas hay en 3º?"): 5 fragmentos no cubren un listado completo. (Probado 12 en jun-2026: bajaba factual 86→84% por dilución; revertido a 10.)
+  similarity_threshold: 0.35   # τ: descarta chunks por debajo (0.50 descartaba movilidad/normativa)
+  mmr_lambda: 0.7              # 1.0 = pura relevancia, 0.0 = pura diversidad
+  use_hybrid: true             # activa recuperación híbrida (densa + léxica)
+  rrf_k: 60                   # constante de suavizado RRF (estándar: 60)
+  # Reranking neuronal: TERCERA etapa, ENCIMA de la híbrida (no la sustituye). Un
+  # cross-encoder MULTILINGÜE (mmarco-mMiniLMv2, entrenado en español entre otros)
+  # reordena los candidatos por relevancia semántica real del par (pregunta,
+  # fragmento), decidiendo la precisión final sin depender de los boosts por
+  # palabra clave del router (que pasan a un papel de recall). Resuelve casos como
+  # "clases de DI / en qué aula" y "fechas de la defensa del TFG". La primera
+  # consulta descarga el modelo (~120 MB); si falla, hace fallback al de inglés.
+  use_reranker: true
+  # Control de ruido: penalización (en la escala del score del cross-encoder) que
+  # se RESTA a los fragmentos de categorías NO enrutadas por el query_router
+  # cuando éste ha clasificado la consulta. Demota el ruido (boletines, FAQ de
+  # prácticas, normativa ajena) en la selección final sin eliminarlo (no provoca
+  # falsos rechazos). 0 = desactivado. Calibrado conservador.
+  off_category_penalty: 1.5
+
+generacion:
+  backend: ollama
+  # Evaluación comparativa (scripts/evaluate.py): qwen2.5:14b daba algo más de
+  # acierto (80% vs 75%) y 0 fugas, pero a ~18s/respuesta (8x más lento) y SIN
+  # arreglar los fallos reales (festivos, agregación), que son del pipeline, no
+  # del modelo. Se mantiene llama3.1:8b por velocidad; el cuello de botella
+  # restante se ataca en la ingesta/recuperación, no cambiando de modelo.
+  model: llama3.1:8b-instruct-q4_K_M
+  # Decodificación greedy (temperature=0): para un asistente FACTUAL conviene la
+  # máxima determinismo y reproducibilidad. Reduce la "creatividad" que llevaba
+  # al modelo a fusionar/inventar filas al agregar muchos registros parecidos
+  # (p.ej. juntar grupos de horario). top_p es irrelevante con temperature=0.
+  temperature: 0.0
+  top_p: 0.9
+  # Ampliado de 1024 a 1536: un listado completo (p.ej. horario de los 6 grupos
+  # con teoría y prácticas, o las asignaturas de 3º/4º) puede superar 1024 tokens
+  # y quedar truncado a media respuesta. 1536 da margen sin disparar la latencia.
+  max_tokens: 1536
+  stop: ["</respuesta>"]
+  # Memoria conversacional: nº de turnos (par usuario+asistente) previos que se
+  # inyectan en el prompt para resolver referencias anafóricas ("¿y en
+  # septiembre?"). Acotado para no inflar el contexto ni degradar la latencia.
+  # 0 = sin memoria (cada consulta independiente).
+  max_history_turns: 3
+  # Deduplicación de contenido (postprocess.dedup): umbral de Jaccard sobre
+  # tokens salientes a partir del cual dos frases se consideran redundantes y se
+  # elimina la segunda (con su cita sobrante). Mitiga que el modelo repita el
+  # mismo dato citando fuentes distintas. Valores altos → más conservador.
+  dedup_threshold: 0.5
+  # Recuperación de citas (citation_validator.recover_sources): si el modelo
+  # responde con datos del contexto pero sin marcadores [n], se atribuye la
+  # fuente de los documentos recuperados cuyo solapamiento léxico con la
+  # respuesta (cobertura: tokens compartidos / tokens de la respuesta) supere
+  # este umbral, con un mínimo de 2 tokens compartidos. Deduplicado por URL.
+  # Valores altos → más conservador (menos atribuciones).
+  recover_threshold: 0.3
+
+scope_gate:
+  # Gate de ámbito (out-of-domain) PREVIO a la generación. Resuelve que el modelo
+  # respondiera con su conocimiento paramétrico (p.ej. "París") y una cita
+  # espuria a preguntas ajenas a la ETSIIT/UGR. Híbrido en dos señales:
+  #   1) Margen del cross-encoder (coste cero): >= high_margin → en ámbito;
+  #      <= low_margin → fuera (abstención directa, sin generar).
+  #   2) Clasificador LLM (red de seguridad) SOLO en la banda intermedia.
+  # Umbrales calibrados sobre el dataset de evaluación (Cap. 7): en ámbito el
+  # mejor score del reranker ronda +5.7 y fuera de ámbito ~−2.7.
+  enabled: true
+  high_margin: 2.0
+  low_margin: -1.0
+
+citacion:
+  in_context_marker: "[{n}]"
+  post_hoc_validation: true    # valida que las citas emitidas existen en el contexto
+
+registro:
+  format: jsonl
+  level: INFO
+  fields: [timestamp, level, event, query_id, latency_ms, module]

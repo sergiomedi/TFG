@@ -1,0 +1,50 @@
+# ============================================================================
+# DEPENDENCIA DE SISTEMA (NO instalable con pip) — Tesseract OCR
+# ----------------------------------------------------------------------------
+# pytesseract (abajo) es solo un wrapper de Python; necesita el binario nativo
+# de Tesseract instalado aparte, junto con el paquete de idioma español 'spa'.
+#
+#   Windows 11:  instalar desde https://github.com/UB-Mannheim/tesseract/wiki
+#                (marcar "Spanish" en el instalador) y añadir al PATH la carpeta
+#                C:\Program Files\Tesseract-OCR
+#   Linux/apt:   sudo apt install tesseract-ocr tesseract-ocr-spa
+#   macOS/brew:  brew install tesseract tesseract-lang
+#
+# Comprobar tras instalar:  tesseract --list-langs   (debe aparecer 'spa')
+# ============================================================================
+
+# Núcleo RAG
+# Versiones FIJAS (pinned) para reproducibilidad del experimento (RNF-11).
+# Conjunto reciente y probado. NOTA: la versión de sentence-transformers NO altera
+# las embeddings de E5 (el modelo es el mismo); se fija solo para evitar derivas de
+# versiones al reinstalar. El Embedder admite ambas variantes de la API de dimensión.
+faiss-cpu>=1.8.0
+sentence-transformers==5.5.1
+transformers==5.12.0
+tokenizers==0.22.2
+huggingface-hub==1.19.0
+ollama>=0.3.0
+rank-bm25>=0.2.2
+numpy==2.2.6
+
+# GPU (recomendado): para que el embedder/reranker usen la GPU (no la CPU), instala
+# la build de torch con CUDA APARTE, DESPUÉS de este requirements:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# Si no se hace, PyPI instala el torch de CPU y la recuperación va mucho más lenta.
+
+# Ingesta
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+pymupdf>=1.24.0            # texto + find_tables() (tablas→Markdown) + rasterizado para OCR
+pytesseract>=0.3.10       # OCR de PDFs escaneados (requiere binario tesseract + idioma 'spa')
+Pillow>=9.5.0             # backend de imagen para pytesseract (rango amplio para no chocar con otros proyectos)
+
+# Interfaz
+streamlit==1.58.0
+
+# Configuración, logging, utilidades
+pyyaml>=6.0.1
+python-json-logger>=2.0.7
+tqdm>=4.66.0
+pydantic>=2.8.0

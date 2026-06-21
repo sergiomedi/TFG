@@ -1,0 +1,431 @@
+# ============================================================================
+# Catálogo de fuentes del corpus de GRAIA — v2 (crawl dirigido por categoría)
+# ============================================================================
+#
+# FILOSOFÍA: lista blanca por categoría.
+#   En vez de "descarga todo y excluye lo malo" (lista negra), cada categoría
+#   define explícitamente QUÉ quiere descargar (include_patterns).  Un enlace
+#   descubierto que no encaje en ninguna categoría se ignora.
+#
+# MANTENIMIENTO: para cambiar de curso académico, modificar SOLO el parámetro
+#   global.current_academic_year y re-ejecutar build_corpus.py.
+#
+# ESTRUCTURA:
+#   global       → parámetros compartidos por todas las categorías
+#   categorias   → perfiles de descarga con seeds + include_patterns
+#   extra_urls   → URLs externas al dominio crawleado (descarga directa)
+# ============================================================================
+
+# ── Parámetros globales ─────────────────────────────────────────────────────
+
+global:
+  # Dominios permitidos para el crawl.
+  # Se incluyen varios subdominios UGR donde se publica información
+  # relevante para los grados de la ETSIIT.
+  allowed_domains:
+    - etsiit.ugr.es
+    - grados.ugr.es
+    - www.ugr.es
+    - secretariageneral.ugr.es
+
+  # Curso académico vigente (formato "YY-YY+1").
+  # build_corpus.py genera automáticamente exclusiones para todos los cursos
+  # anteriores, cubriendo variantes: (XX-YY), XX-YY, 20XX-YY, MesYYYY, Mes YYYY.
+  current_academic_year: "25-26"
+
+  # Extensiones de fichero descargables.  URLs sin extensión (páginas dinámicas)
+  # se permiten siempre.  Todo lo demás (.doc, .odt, .xlsx, .pptx) se bloquea.
+  allowed_extensions:
+    - .html
+    - .htm
+    - .pdf
+
+  # Umbral mínimo de caracteres: documentos por debajo se descartan.
+  # Elimina páginas índice, redirecciones y errores con contenido residual.
+  min_chars: 200
+
+  # Deduplicación: si true, documentos con el mismo hash de contenido se
+  # descartan (conserva el de URL más corta).  Elimina duplicados Drupal (_N).
+  deduplicate: true
+
+  # Patrones de exclusión globales (se aplican ANTES de los include_patterns).
+  # Cubren contenido que ninguna categoría debería descargar.
+  exclude_patterns:
+    # Versiones en inglés (duplican contenido) — https? cubre http y https
+    - "^https?://etsiit\\.ugr\\.es/en/"
+    - "/en$"
+    # Versiones print/pdf generadas por Drupal
+    - "/print/pdf/"
+    # Imágenes y multimedia
+    - "\\.(png|jpg|jpeg|gif|svg|ico|webp|mp4|mp3|avi|mov)(\\?|$)"
+    # Noticias y eventos
+    - "/la-escuela/noticias"
+    - "/noticias/"
+    # Investigación y transferencia
+    - "/transferencia/"
+    - "/investigacion/"
+    # Posgrados y TFM (fuera del alcance del grado)
+    - "/posgrados"
+    - "/trabajo-fin-master"
+    # Formación complementaria
+    - "/formacion-complementaria"
+    - "/node/192"
+    # Presentación institucional genérica
+    - "/la-escuela/presentacion(?!/secretaria)"
+    - "/la-escuela/organizacion"
+    - "/la-escuela/actividades"
+    - "/la-escuela/documentos-privados"
+    - "/imagen-corporativa"
+    - "/reserva-espacios"
+    # Delegación y asociaciones
+    - "/estudiantes/delegacion"
+    - "/asociaciones"
+    # Nodos internos irrelevantes
+    - "/node/(118|168|186|284|348|655)"
+    # Accesibilidad, condiciones legales, contacto genérico
+    - "/accesibilidad$"
+    - "/condiciones-legales$"
+    - "/contacto(/incidencias)?$"
+    - "/about/"
+
+  # Parámetros operativos del rastreo
+  politeness_delay_s: 1.0
+  max_pages_total: 2000
+
+
+# ── Perfiles de descarga por categoría ──────────────────────────────────────
+#
+# Cada categoría define:
+#   seeds            — URLs desde las que empieza el descubrimiento
+#   include_patterns — regex sobre URL decodificada; un enlace descubierto
+#                      solo se descarga si casa con al menos un patrón
+#   follow_links     — si true, se extraen y siguen enlaces de páginas HTML
+#   max_depth        — profundidad máxima de descubrimiento desde las seeds
+#   temporal         — si true, se aplica filtrado automático por curso
+#   download_seeds   — si true, las propias seeds se descargan (default: true)
+#   descripcion      — texto libre para documentación
+
+categorias:
+
+  # ── GUÍAS DOCENTES ─────────────────────────────────────────────────────────
+  guias_docentes:
+    descripcion: >
+      Guías docentes oficiales de las asignaturas del Grado en Ingeniería
+      Informática (GII).  Se excluyen otros grados (GITT, dobles grados)
+      por quedar fuera del alcance del sistema.
+    seeds:
+      - https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica
+    include_patterns:
+      - "guia-docente"
+      - "plan-estudios"
+      - "graduadoa-ingenieria-informatica/"
+    exclude_patterns:
+      # Otros grados de la ETSIIT — fuera del alcance
+      - "ingenieria-tecnologias-telecomunicacion"
+      - "inga-informatica-administ"
+      - "informatica-y-matematicas"
+      - "doble-grado"
+      # Fichas resumen de asignatura (/11 sin /guia-docente): son páginas
+      # de ~1500 chars que duplican el contenido de la guía docente completa.
+      # Solo se mantiene la guía docente (/11/guia-docente) y las páginas
+      # especiales (plan-estudios, presentacion).
+      - "informatica/[^/]+/11$"
+    follow_links: true
+    max_depth: 2
+    max_pages: 120
+    temporal: false
+
+  # ── CALENDARIOS Y HORARIOS ────────────────────────────────────────────────
+  calendario:
+    descripcion: >
+      Calendarios académicos, de exámenes, de TFG, horarios de clases,
+      asignaciones de aulas y plazos de interés del curso vigente.
+    seeds:
+      - https://etsiit.ugr.es/docencia/grados/calendario
+      - https://etsiit.ugr.es/docencia/grados/calendario-examenes
+      - https://etsiit.ugr.es/docencia/grados/horarios
+    include_patterns:
+      - "(?i)calendario"
+      - "(?i)horarios?"
+      - "(?i)asignaci[oó]n.*aulas?"
+      - "(?i)asignacion.*aulas?"
+      - "(?i)plazos"
+      - "(?i)inline-files/"
+    exclude_patterns:
+      # Solo GII: excluir calendarios/horarios/aulas de otros grados
+      - "(?i)GITT"
+      - "(?i)GIIM"
+      - "(?i)GIIADE"
+      # Calendarios obsoletos (cursos anteriores a 2025)
+      - "(?i)Examenes2021"
+      - "(?i)Examenes2022"
+      - "(?i)Examenes2023"
+      - "(?i)plan.antiguo"
+    follow_links: true
+    max_depth: 2
+    max_pages: 50
+    temporal: true
+
+  # ── NORMATIVA ─────────────────────────────────────────────────────────────
+  normativa:
+    descripcion: >
+      Normativas, reglamentos, directrices y resoluciones de la ETSIIT
+      y de la UGR aplicables a los estudiantes de grado.
+    seeds:
+      - https://etsiit.ugr.es/la-escuela/documentos/normativa
+    include_patterns:
+      - "(?i)normativa"
+      - "(?i)reglamento"
+      - "(?i)directrices"
+      - "(?i)resoluci[oó]n"
+      - "(?i)acuerdos.*junta"
+      - "documentos/normativa"
+      - "(?i)inline-files/"
+    exclude_patterns:
+      # URLs del grado de Telecomunicación — fuera del alcance GII
+      - "grados\\.ugr\\.es/telecomunicacion"
+      # Reglamento del Consejo de Titulación de Telecomunicación
+      - "(?i)Telecomunicaci[oó]n.*Junta"
+      - "(?i)Titulaci[oó]n.*Telecomunicaci[oó]n"
+      # Páginas índice genéricas de UGR (solo enlaces, sin contenido)
+      - "ugr\\.es/universidad/normativa/?$"
+      - "ugr\\.es/universidad/normativa/basica$"
+      - "ugr\\.es/universidad/normativa/estatutos$"
+      # Normativa de dobles grados — fuera del alcance
+      - "(?i)programas-conjuntos"
+      # Cabeceras BOUGR sin contenido útil
+      - "(?i)CABECERAS.*\\.pdf"
+      - "(?i)NCG1272\\.pdf"
+    follow_links: true
+    max_depth: 2
+    max_pages: 50
+    temporal: false
+
+  # ── TRÁMITES ADMINISTRATIVOS ──────────────────────────────────────────────
+  tramites:
+    descripcion: >
+      Información de secretaría, impresos, formularios y trámites
+      administrativos para estudiantes de grado.
+    seeds:
+      - https://etsiit.ugr.es/la-escuela/presentacion/secretaria
+      - https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios
+      - https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios/tramites
+      - https://etsiit.ugr.es/la-escuela/secretaria/internacional
+      - https://etsiit.ugr.es/la-escuela/secretaria/registro-electronico
+    include_patterns:
+      - "(?i)secretaria"
+      - "(?i)impresos"
+      - "(?i)formulari"
+      - "(?i)tr[aá]mit"
+      - "(?i)registro.*electr[oó]nico"
+      - "(?i)admisi[oó]n"
+      - "(?i)PLAZOS"
+      - "(?i)inline-files/"
+      - "(?i)compensaci"
+      - "(?i)permanencia"
+      - "(?i)reconocimiento"
+    exclude_patterns:
+      # Fichas de protección de datos de secretaría general — no aportan
+      # información académica útil para consultas de estudiantes.
+      - "(?i)protecci[oó]n.de.datos"
+      - "(?i)informaci[oó]n.adicional.sobre"
+      - "(?i)cl[aá]usulas.informativas"
+      - "(?i)comunicaci[oó]n.de.brechas"
+      # Páginas institucionales genéricas de secretaría general
+      - "(?i)secretariageneral\\.ugr\\.es.*/protocolo"
+      - "(?i)secretariageneral\\.ugr\\.es.*/directorio"
+      - "(?i)secretariageneral\\.ugr\\.es.*/noticias"
+      - "(?i)secretariageneral\\.ugr\\.es.*/organizacion"
+      - "(?i)secretariageneral\\.ugr\\.es.*/claustro"
+      - "(?i)secretariageneral\\.ugr\\.es.*/consejo-de-gobierno"
+      - "(?i)secretariageneral\\.ugr\\.es.*/archivo-universitario"
+      - "(?i)secretariageneral\\.ugr\\.es.*/servicios-juridicos"
+      - "(?i)secretariageneral\\.ugr\\.es.*/sistema-interno"
+      - "(?i)secretariageneral\\.ugr\\.es.*/instrucciones"
+      - "(?i)secretariageneral\\.ugr\\.es.*/presentacion"
+      # Resoluciones del rector — demasiado generales
+      - "(?i)secretariageneral\\.ugr\\.es.*/resoluciones"
+      # Oficina de protección de datos completa — no aporta info académica
+      - "(?i)secretariageneral\\.ugr\\.es.*/oficina-proteccion-datos"
+      - "(?i)/protecciondedatos\\.pdf"
+      # Áreas de gestión irrelevantes para estudiantes GII
+      - "(?i)secretariageneral\\.ugr\\.es.*/consejo-gobierno"
+      - "(?i)secretariageneral\\.ugr\\.es.*/nombramientos"
+      - "(?i)secretariageneral\\.ugr\\.es.*/procesos-electorales"
+      - "(?i)secretariageneral\\.ugr\\.es.*/memorias"
+      - "(?i)secretariageneral\\.ugr\\.es.*/delegaciones"
+      - "(?i)secretariageneral\\.ugr\\.es.*/quejas-sugerencias"
+      - "(?i)secretariageneral\\.ugr\\.es/sitemap"
+      # Servicios institucionales no académicos
+      - "(?i)secretariageneral\\.ugr\\.es.*/doctor-honoris"
+      - "(?i)secretariageneral\\.ugr\\.es.*/servidores-web"
+      - "(?i)secretariageneral\\.ugr\\.es.*/identidad-visual"
+      - "(?i)secretariageneral\\.ugr\\.es.*/catedras"
+      - "(?i)secretariageneral\\.ugr\\.es.*/mesa-general"
+      - "(?i)secretariageneral\\.ugr\\.es.*/seguridad-informacion"
+      - "(?i)secretariageneral\\.ugr\\.es.*/solicitud-imagenes"
+      - "(?i)secretariageneral\\.ugr\\.es.*/agenda-directorio"
+      # Portada de secretaría general (sin contenido útil)
+      - "secretariageneral\\.ugr\\.es/?$"
+    follow_links: true
+    max_depth: 3
+    max_pages: 80
+    temporal: false
+
+  # ── MOVILIDAD ─────────────────────────────────────────────────────────────
+  movilidad:
+    descripcion: >
+      Programas de movilidad internacional (Erasmus+, bilateral) y
+      nacional (SICUE): convocatorias, procedimientos, reglamentos y FAQs.
+      Se excluyen experiencias personales de estudiantes en países.
+    seeds:
+      - https://etsiit.ugr.es/movilidad/programas/internacional/salientes
+      - https://etsiit.ugr.es/movilidad/programas/internacional/salientes/convocatorias
+      - https://etsiit.ugr.es/movilidad/programas/internacional/salientes/preguntas-frecuentes
+      - https://etsiit.ugr.es/movilidad/programas/internacional/salientes/procedimiento
+      - https://etsiit.ugr.es/movilidad/programas/nacional
+      - https://etsiit.ugr.es/movilidad/estrategia-internacionalizacion
+    include_patterns:
+      - "(?i)movilidad"
+      - "(?i)erasmus"
+      - "(?i)sicue"
+      - "(?i)internaciona"
+      - "(?i)reconocimiento"
+      - "(?i)docmovilidad"
+    exclude_patterns:
+      # Experiencias personales en países — testimonios, no info normativa
+      - "(?i)/experiencias/"
+    follow_links: true
+    max_depth: 3
+    max_pages: 50
+    temporal: false
+
+  # ── TRABAJO FIN DE GRADO ──────────────────────────────────────────────────
+  tfg:
+    descripcion: >
+      Información sobre el TFG: normativa, directrices, calendario,
+      resoluciones y procedimientos de la ETSIIT y grados.ugr.es.
+    seeds:
+      - https://etsiit.ugr.es/docencia/trabajo-fin-grado
+      - https://grados.ugr.es/informatica/pages/infoacademica/tfggestion2
+    include_patterns:
+      - "(?i)trabajo.fin.grado"
+      - "(?i)tfg"
+      - "(?i)directrices.*tfg"
+      - "(?i)infoacademica"
+      - "(?i)inline-files/"
+    exclude_patterns:
+      # URLs del grado de Telecomunicación — fuera del alcance de GRAIA (solo GII)
+      # Filtro solo por URL, no por contenido (el nombre de la escuela incluye
+      # "Telecomunicación" y un filtro por contenido destruye páginas válidas)
+      - "grados\\.ugr\\.es/telecomunicacion"
+    follow_links: true
+    max_depth: 2
+    max_pages: 40
+    temporal: false
+
+  # ── ESTUDIANTES (servicios) ───────────────────────────────────────────────
+  estudiantes:
+    descripcion: >
+      Servicios al estudiante: prácticas en empresa, NEAE, plan de
+      acción tutorial, sellos de calidad, espacios de trabajo.
+    seeds:
+      - https://etsiit.ugr.es/estudiantes
+      - https://etsiit.ugr.es/estudiantes/practicas-empresa
+      - https://etsiit.ugr.es/estudiantes/neae
+      - https://etsiit.ugr.es/estudiantes/plan-accion-tutorial
+    include_patterns:
+      - "(?i)estudiantes"
+      - "(?i)pr[aá]cticas.*empresa"
+      - "(?i)neae"
+      - "(?i)plan.*acci[oó]n.*tutorial"
+      - "(?i)sellos.*calidad"
+      - "(?i)espacios.*trabajo"
+    follow_links: true
+    max_depth: 2
+    max_pages: 30
+    temporal: false
+
+  # ── PROFESORADO Y DEPARTAMENTOS ───────────────────────────────────────────
+  profesorado:
+    descripcion: >
+      Directorio de profesorado y páginas de departamentos con docencia
+      en los grados de la ETSIIT.
+    seeds:
+      - https://etsiit.ugr.es/docencia/profesorado
+      - https://etsiit.ugr.es/docencia/departamentos
+    include_patterns:
+      - "(?i)profesorado"
+      - "(?i)departamentos?"
+    follow_links: true
+    max_depth: 2
+    max_pages: 30
+    temporal: false
+
+
+# ── URLs extra (descarga directa, sin crawl) ──────────────────────────────
+# Estas URLs se descargan sin crawl recursivo.  Cada una lleva su categoría.
+# Incluye documentos alojados en dominios externos a etsiit.ugr.es que
+# contienen información esencial para los estudiantes de grado.
+
+extra_urls:
+
+  # ── Normativa UGR ──
+  - url: https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/197/CABECERAS%20197_1.pdf
+    label: "Normativa TFG UGR — BOUGR 197, Art. 5"
+    category: normativa
+
+  - url: https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/260/Bolet%C3%ADn%20Oficial%20de%20la%20Universidad%20de%20Granada%20n%C2%BA%20260_8.pdf
+    label: "Reglamento permanencia UGR — BOUGR 260"
+    category: normativa
+
+  - url: https://www.ugr.es/universidad/normativa/texto-consolidado-normativa-evaluacion-calificacion-estudiantes-universidad-granada
+    label: "Normativa evaluación y calificación UGR (texto consolidado)"
+    category: normativa
+
+  - url: https://www.ugr.es/universidad/normativa/ncg1421-normativa-programas-conjuntos-estudios-oficiales-universidad-granada
+    label: "Normativa dobles grados UGR"
+    category: normativa
+
+  - url: https://www.ugr.es/universidad/normativa/acg1436-procedimiento-para-el-reconocimiento-de-la-acreditacion-de-lenguas
+    label: "Normativa acreditación lingüística UGR"
+    category: normativa
+
+  # ── Normativa ETSIIT ──
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Directrices%20TFG%20de%20la%20ETSIIT.pdf
+    label: "Directrices TFG ETSIIT"
+    category: tfg
+
+  # ── Plan de estudios (grados.ugr.es) ──
+  - url: https://grados.ugr.es/informatica/docencia/plan-estudios
+    label: "Plan de estudios Grado Ing. Informática"
+    category: guias_docentes
+
+  - url: https://grados.ugr.es/informatica/informacion/presentacion
+    label: "Presentación del Grado en Ing. Informática"
+    category: guias_docentes
+
+  # ── Calendarios académicos (PDFs inline-files) ──
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20Academico%202025-2026.pdf
+    label: "Calendario académico ETSIIT 2025-2026"
+    category: calendario
+
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20TFG%202025-2026.pdf
+    label: "Calendario TFG ETSIIT 2025-2026"
+    category: calendario
+
+  # ── Horarios (PDFs inline-files) ──
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Horarios%20GII%20%2825-26%29.pdf
+    label: "Horarios Grado Ing. Informática 25-26"
+    category: calendario
+
+  # NOTA: Horarios de GITT, GIIM y GIIADE excluidos — fuera del alcance (solo GII)
+
+  # ── Plazos y trámites secretaría (PDFs inline-files) ──
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26.pdf
+    label: "Plazos de interés curso 2025-26 (versión original)"
+    category: tramites
+
+  - url: https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_3.pdf
+    label: "Impreso admisión a estudios de grado"
+    category: tramites

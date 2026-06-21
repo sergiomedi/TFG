@@ -1,0 +1,391 @@
+{
+  "summary": {
+    "judge": "qwen2.5:14b-instruct",
+    "n_evaluated": 63,
+    "n_skipped": 11,
+    "metrics_mean": {
+      "faithfulness": 0.9001231527093596,
+      "answer_relevancy": 0.5954586994419007
+    }
+  },
+  "results": [
+    {
+      "id": "cal-ini-c1",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.740002599895421
+    },
+    {
+      "id": "cal-fin-c1",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5863986090335166
+    },
+    {
+      "id": "cal-ini-c2",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8153829641404235
+    },
+    {
+      "id": "cal-fin-c2",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5376399418769986
+    },
+    {
+      "id": "cal-ord-c1",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5649107385307875
+    },
+    {
+      "id": "cal-ord-c2",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7231977030166492
+    },
+    {
+      "id": "cal-ext-jul",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5836570489637504
+    },
+    {
+      "id": "cal-ext-nov",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5615604127043846
+    },
+    {
+      "id": "ex-ca",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6106368651886958
+    },
+    {
+      "id": "ex-fs",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4357142367869132
+    },
+    {
+      "id": "ex-fft",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.46197120552000853
+    },
+    {
+      "id": "ex-alem",
+      "type": "factual",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.5837734235870783
+    },
+    {
+      "id": "ex-fp",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7877280879753945
+    },
+    {
+      "id": "ex-ed",
+      "type": "factual",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.44366477483239986
+    },
+    {
+      "id": "ex-ia",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6334225915804256
+    },
+    {
+      "id": "ex-aa",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6027007396082594
+    },
+    {
+      "id": "ex-di",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7170841695529884
+    },
+    {
+      "id": "ex-di-ext",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6695001323687112
+    },
+    {
+      "id": "hor-ca-aula",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9766697991917774
+    },
+    {
+      "id": "hor-ca-dias",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6798514388057167
+    },
+    {
+      "id": "hor-fs-1a",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7103339384480337
+    },
+    {
+      "id": "hor-di-aula",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5923403710845795
+    },
+    {
+      "id": "hor-di-dias",
+      "type": "factual",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.6841430258592017
+    },
+    {
+      "id": "hor-asig-1c1",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.46805901936521427
+    },
+    {
+      "id": "hor-asig-1c2",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5309670859531003
+    },
+    {
+      "id": "plan-esp-num",
+      "type": "aggregation",
+      "faithfulness": null,
+      "answer_relevancy": 0.5087885640910405
+    },
+    {
+      "id": "plan-esp-cursos",
+      "type": "factual",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7298354485620324
+    },
+    {
+      "id": "plan-aa-esp",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5082885541737294
+    },
+    {
+      "id": "plan-3-comunes",
+      "type": "aggregation",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.44481821757452655
+    },
+    {
+      "id": "plan-3-csi",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5670272866815508
+    },
+    {
+      "id": "plan-3-is",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5663750387599379
+    },
+    {
+      "id": "plan-4-csi-opt",
+      "type": "aggregation",
+      "faithfulness": 0.8571428571428571,
+      "answer_relevancy": 0.5521898729799899
+    },
+    {
+      "id": "plan-opt-comunes",
+      "type": "aggregation",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.429085861647875
+    },
+    {
+      "id": "plan-2c1",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.47452187379233424
+    },
+    {
+      "id": "sg-ects",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "sg-prof",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4886502143504146
+    },
+    {
+      "id": "sg-tipo",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.454104207597793
+    },
+    {
+      "id": "di-tutoria",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6060325666014831
+    },
+    {
+      "id": "tfg-reunion",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "tfg-defensa-jun",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5647191603384595
+    },
+    {
+      "id": "tfg-defensa-nov",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5513098760953631
+    },
+    {
+      "id": "tfg-entrega-jun",
+      "type": "factual",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "tfg-eval-jun",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5218434636838424
+    },
+    {
+      "id": "tfg-concertar",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.44223688218753887
+    },
+    {
+      "id": "tfg-convocatorias",
+      "type": "aggregation",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9412452243272345
+    },
+    {
+      "id": "pla-automatricula",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5087837155293258
+    },
+    {
+      "id": "pla-presencial",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9187669791343799
+    },
+    {
+      "id": "pla-compensacion",
+      "type": "factual",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9926469600349194
+    },
+    {
+      "id": "pla-cambio-grupo",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9072298589784228
+    },
+    {
+      "id": "pla-actas-ord2",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8416547362906336
+    },
+    {
+      "id": "pla-actas-especial",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8229900420739362
+    },
+    {
+      "id": "pla-docencia-2sem",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6261183712113055
+    },
+    {
+      "id": "sicue-def",
+      "type": "factual",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.6242781348755507
+    },
+    {
+      "id": "tut-acid",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5813506986453373
+    },
+    {
+      "id": "tut-sicue",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4598220911723116
+    },
+    {
+      "id": "faq-sesiones",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6741805700714529
+    },
+    {
+      "id": "sec-ubicacion",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7977864475210131
+    },
+    {
+      "id": "dep-ccia-tel",
+      "type": "factual",
+      "faithfulness": null,
+      "answer_relevancy": 0.6841913149207387
+    },
+    {
+      "id": "dep-ccia-web",
+      "type": "factual",
+      "faithfulness": null,
+      "answer_relevancy": 0.609835997982513
+    },
+    {
+      "id": "pra-plazo",
+      "type": "factual",
+      "faithfulness": null,
+      "answer_relevancy": 0.0
+    },
+    {
+      "id": "pra-convocatorias",
+      "type": "aggregation",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9141500505659609
+    },
+    {
+      "id": "pra-defensa",
+      "type": "aggregation",
+      "faithfulness": null,
+      "answer_relevancy": 0.7836767612270146
+    },
+    {
+      "id": "sec-horario",
+      "type": "factual",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7140520972893448
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# ============================================================================
+# Dependencias SOLO para la evaluación RAGAS (scripts/evaluate_ragas.py).
+# ----------------------------------------------------------------------------
+# IMPORTANTE: instalar EXCLUSIVAMENTE en un entorno virtual SEPARADO
+# (.venv-ragas), NUNCA en el entorno de la aplicación. RAGAS arrastra
+# datasets/langchain/pyarrow/transformers que, mezclados con torch+faiss bajo
+# Streamlit, provocan el cierre nativo de la app.
+# Manteniéndolos en su propio venv, el requirements.txt de la app queda intacto.
+#
+# Crear e instalar:
+#   cd codigo
+#   python -m venv .venv-ragas
+#   .\.venv-ragas\Scripts\python.exe -m pip install --upgrade pip
+#   .\.venv-ragas\Scripts\python.exe -m pip install -r requirements-ragas.txt
+# ============================================================================
+
+# IMPORTANTE: RAGAS 0.2.x se construyó para la serie 0.3 de LangChain. Si se deja
+# que pip instale LangChain 1.x (core 1.x / community 0.4.x), ragas falla al importar
+# con "No module named 'langchain_community.chat_models.vertexai'". Por eso se fija
+# todo el ecosistema LangChain a <0.4 / <0.3. Combinación verificada (import OK):
+#   ragas 0.2.15 · langchain 0.3.30 · langchain-core 0.3.86 · langchain-community 0.3.31 · langchain-ollama 0.2.3
+ragas>=0.2.14,<0.3
+langchain>=0.3.0,<0.4
+langchain-core>=0.3.0,<0.4
+langchain-community>=0.3.0,<0.4
+langchain-ollama>=0.2.0,<0.3
+datasets>=2.19.0
+pandas>=2.0.0
+nltk>=3.8
+
+# Nota: RAGAS usa un LLM "juez" vía Ollama (no consume API de pago). Asegúrarse de
+# tener Ollama en ejecución y el modelo juez descargado, p. ej.:
+#   ollama pull llama3.1:8b-instruct-q4_K_M
+# Para answer_relevancy hace falta además un modelo de embeddings en Ollama:
+#   ollama pull nomic-embed-text
