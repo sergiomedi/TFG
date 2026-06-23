@@ -16,14 +16,6 @@ __pycache__/
 .env
 .env.local
 
-# Datos y artefactos (no se versionan)
-data/raw/**
-data/processed/**
-data/index/**
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/index/.gitkeep
-
 # Copias de seguridad (p.ej. corpus.jsonl.bak de inject_doc.py)
 *.bak
 

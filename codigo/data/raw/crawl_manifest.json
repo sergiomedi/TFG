@@ -1,0 +1,2284 @@
+[
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 269605,
+    "depth": 0,
+    "timestamp": "2026-06-06T11:58:33.698058+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-graficos-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56995,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:35.625396+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/centros-procesamiento-datos-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 54027,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:37.487084+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-paralela-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56228,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:39.449287+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 82700,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:41.386645+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/redes-y-sistemas-complejos-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 54362,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:43.240334+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-red-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 55558,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:45.030362+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-bases-datos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 76325,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:46.896094+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/circuitos-integrados-e-impresos-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 55639,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:48.749665+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/derecho-informatico/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 68503,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:50.547940+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/perifericos-y-dispositivos-interfaz-humana-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52251,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:52.310042+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/recuperacion-informacion-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52653,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:54.092211+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/mantenimiento-equipos-informaticos-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 55901,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:55.886218+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/seguridad-sistemas-operativos-especialidad-ingenieria-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 61803,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:57.710550+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-operativos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 83188,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:58:58.933783+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-sistemas-informacion-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 64702,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:00.756203+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/compresion-y-recuperacion-informacion-multimedia-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 61653,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:02.546635+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-tecnica-y-cientifica-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 50538,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:04.328061+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-emergentes-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57716,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:06.182395+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/inteligencia-negocio-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 67137,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:08.022760+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-multidimensionales-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52874,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:09.815410+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/transmision-datos-y-redes-computadores-especialidadtecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58958,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:11.638831+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/animacion-ordenador-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 50130,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:13.412845+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/creacion-empresas-y-gestion-emprendedora/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 60701,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:15.154769+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-web-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 64393,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:17.091017+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/algebra-lineal-y-estructuras-matematicas/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 64580,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:18.987953+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 80928,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:20.889651+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-dispositivos-moviles-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 47648,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:22.709427+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-redes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 61656,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:24.563340+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-web-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 59169,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:26.322264+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-del-conocimiento-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52161,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:28.096164+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/bases-datos-distribuidas-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56194,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:29.893050+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-basado-agentes-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58273,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:31.683699+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/computacion-ubicua-e-inteligencia-ambiental-especialidadtecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 59295,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:33.522589+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-multimedia-especialidadtecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53075,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:35.308981+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/aprendizaje-automatico-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 55398,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:37.196608+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-empresa-y-sociedad/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 71062,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:39.014326+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 70037,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:40.264147+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-software-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 68174,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:42.163102+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-geografica-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53464,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:43.974795+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-ludica-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58388,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:45.715133+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/logica-y-metodos-discretos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 68057,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:47.583215+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estructura-datos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 78558,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:49.600277+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-basados-web-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58047,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:51.403597+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-empresas-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 60063,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:53.191544+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/vision-computador-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56359,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:55.007968+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/criptografia-y-computacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53643,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:56.885762+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-y-desarrollo-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 69433,
+    "depth": 1,
+    "timestamp": "2026-06-06T11:59:58.737351+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-y-diseno-orientado-objetos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 75311,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:00.586687+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-cooperativos-y-gestion-contenidos-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53896,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:02.454942+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-aplicaciones-internet-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 49643,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:04.372255+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/administracion-bases-datos-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56921,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:06.209451+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-sistemas-distribuidos-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 68435,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:08.202866+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/robotica-industrial-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 59591,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:09.976458+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-grafica-videojuegos-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56026,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:11.718729+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-interfaces-usuario-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 65071,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:13.472493+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-y-computacion-altas-prestaciones-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57205,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:15.312673+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-concurrentes-y-distribuidos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 73140,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:17.179746+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/gestion-recursos-digitales-especialidad-sistemas-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 55041,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:19.010945+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/procesadores-lenguajes-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57791,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:20.801183+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/inteligencia-artificial/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 67334,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:22.038270+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/informatica-industrial-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 59757,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:23.793977+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/direccion-y-gestion-proyectos-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58479,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:25.628248+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/teoria-la-informacion-y-la-codificacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52142,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:27.368027+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-fisicos-y-tecnologicos/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 65428,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:29.199824+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-servidores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 74625,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:31.073330+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/informatica-grafica/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 71450,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:32.912522+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/practicas-empresa/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 61804,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:34.670606+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/simulacion-sistemas-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53353,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:36.399142+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/etica-informatica-y-sociedad-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58931,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:38.229688+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/infraestructura-virtual-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 69905,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:40.025965+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-sistemas-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 49446,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:41.871312+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estructura-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 67009,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:43.707716+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/calculo/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53087,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:45.526586+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-sistemas-electronicos-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 62773,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:47.397897+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metodologia-la-programacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 71040,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:49.733799+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/modelos-computacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 63799,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:51.533594+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/nuevos-paradigmas-interaccion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 58776,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:53.397916+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/logica-y-programacion-especialidad-ingenieria-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 50831,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:55.227819+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/modelos-avanzados-computacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56198,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:57.099341+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estadistica/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 77116,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:00:59.074384+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/nuevas-tecnologias-la-programacion-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 51962,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:00.862844+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metaheuristicas-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57011,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:02.752926+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnicas-los-sistemas-inteligentes-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56096,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:04.576811+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-programacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 79748,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:06.578691+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-empotrados-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57626,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:08.431773+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metodologias-desarrollo-agil-especialidad-ingenieria-del-software/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 65964,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:10.167064+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-microprocesadores-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57249,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:11.950332+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-hardware-digital-especialidad-ingenieria-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 57874,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:13.751391+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/algoritmica/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 74766,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:15.661687+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/procesamiento-digital-senales-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 51095,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:17.462435+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/proyecto-fin-grado/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52968,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:19.181309+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/servidores-web-altas-prestaciones-especialidadtecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 54599,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:20.942271+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tratamiento-imagenes-digitales-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 56840,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:22.766387+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/redes-multiservicio-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 52958,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:24.526292+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologia-y-organizacion-computadores/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 74641,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:26.411142+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/seguridad-y-proteccion-sistemas-informaticos-especialidad-tecnologias-la-informacion/11/guia-docente",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 53167,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:28.177828+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/grados/calendario",
+    "status": "ok",
+    "category": "calendario",
+    "type": "html",
+    "bytes": 32589,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:01:29.993470+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/grados/calendario-examenes",
+    "status": "ok",
+    "category": "calendario",
+    "type": "html",
+    "bytes": 74087,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:01:31.235674+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/grados/horarios",
+    "status": "ok",
+    "category": "calendario",
+    "type": "html",
+    "bytes": 38453,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:01:33.117904+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20TFG%202025-2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 61872,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:34.366418+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20Academico%202025-2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 57596,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:35.582572+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3n%20Aulas%20GII.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 29528,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:36.786365+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/CalendarioExamenes25-26-GII.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 56807,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:38.015943+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3nAulasGIIFebrero2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 50942,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:39.239246+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3nAulasGIIEnero2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 50853,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:40.473029+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3n%20Aulas%20GII%20Junio%202026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 43912,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:41.703276+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Horarios%20GII%20%2825-26%29.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 142567,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:43.013950+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/documentos/normativa",
+    "status": "ok",
+    "category": "normativa",
+    "type": "html",
+    "bytes": 34753,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:01:44.881368+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/RRC_ECTS_Grados.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 380759,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:46.318208+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Directrices%20TFG%20de%20la%20ETSIIT.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 56978,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:47.547075+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Graduacion_ETSIIT.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 102901,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:48.792252+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento%20del%20Consejo%20de%20Titulaci%C3%B3n%20de%20Inform%C3%A1tica.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 52765,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:50.016596+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento%20de%20Honores%20y%20Distinciones%20de%20la%20E.T.S.I.I.T.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 48629,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:51.243586+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/ncs133-2-modificacion-normas-permanencia-estudiantado-ensenanzas-grado-master",
+    "status": "failed",
+    "category": "normativa",
+    "depth": 1,
+    "timestamp": "2026-06-06T12:01:59.201322+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/texto-consolidado-normativa-evaluacion-calificacion-estudiantes-universidad-granada",
+    "status": "ok",
+    "category": "normativa",
+    "type": "html",
+    "bytes": 43432,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:00.385332+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Nacional_ETSIIT_2021_0.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 96851,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:01.664898+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ReglamentoRegimenInternoETSIIT.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 92772,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:02.955338+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Resoluci%C3%B3n%20TFG%20de%20la%20ETSIIT.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 66191,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:04.180779+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Internacional_ETSIIT_2021.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 102898,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:05.436553+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Practicas_Externas_Grados.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 836808,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:07.294626+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/sites/default/files/2023-01/Texto%20consolidado%20de%20Normativa%20a%20de%20evaluaci%C3%B3n%20y%20de%20calificaci%C3%B3n%20de%20los%20estudiantes%20de%20la%20Universidad%20de%20Granada.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 494446,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:02:08.981704+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/presentacion/secretaria",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 44751,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:02:10.893967+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 38187,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:02:12.800582+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios/tramites",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 39202,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:02:15.513995+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/secretaria/internacional",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 36210,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:02:17.657236+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/secretaria/registro-electronico",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 32224,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:02:19.518736+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/la-escuela/secretaria/registro",
+    "status": "failed",
+    "category": "tramites",
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:27.592344+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_1.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:29.046279+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_0.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:30.459663+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_3.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 186085,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:31.871114+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_2.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:33.400158+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_7.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:34.917986+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/acg1436-procedimiento-para-el-reconocimiento-de-la-acreditacion-de-lenguas",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 41920,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:36.738226+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_6.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:38.263969+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:39.750878+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_4.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:41.230281+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_5.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:42.698241+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_3.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:44.214032+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/areas-gestion/normativa-resoluciones-rector",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 39689,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:45.653934+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/260/Bolet%C3%ADn%20Oficial%20de%20la%20Universidad%20de%20Granada%20n%C2%BA%20260_8.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 980613,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:47.801917+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/216_0.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 130346,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:49.142784+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/296_0.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 97571,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:50.429312+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_4.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 186085,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:51.843964+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/221_0.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 105954,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:53.158698+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/296%20OPTATIVAS.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 62030,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:54.432807+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/CAMBIO%20DE%20GRUPO_6_2.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 174472,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:55.825534+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/297_0.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 148798,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:02:57.179935+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/pages/convenios",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 35233,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:02:58.422204+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/informacion",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 29312,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:02:59.642795+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/informacion/servicios",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 70292,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:00.840913+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/areas-gestion/convenios",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 35233,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:02.014459+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/areas-gestion",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 30647,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:03.242396+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 29819,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:04.442585+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/areas-gestion/normativa-resoluciones-rector/normativa",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 29966,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:06.303503+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 59720,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:07.516264+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/oficina-asistencia-materia-registro",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 33874,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:03:09.716599+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/areas-gestion/convenios/modelos-formularios",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 31164,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:11.565045+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/informacion/servicios/organos-gobierno",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 48032,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:13.958188+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/informacion/servicios/otros-honores-distinciones-actos-academicos",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 34961,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:15.191807+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/informacion/servicios/calendarios-academicos",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 38428,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:16.396532+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2025%20Gu%C3%ADa%20SET.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 926202,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:18.731297+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/localizacion-contacto",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 38881,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:19.934930+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/expedicion-titulos",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 29939,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:21.718268+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/informacion-relacionada",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 31394,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:23.526547+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/expedicion-titulos-pretitulos",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 32774,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:25.395641+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/solicitudes",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 31233,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:27.202329+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2026%20Gu%C3%ADa%20titulos%20universitarios%20oficiales.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 1246030,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:29.364043+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/enlaces-interes",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 31353,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:31.147328+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/miembros-equipo",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 30566,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:33.001100+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/unidades/titulos/preguntas-frecuentes",
+    "status": "ok",
+    "category": "tramites",
+    "type": "html",
+    "bytes": 57047,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:35.191202+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2025%20Gu%C3%ADa%20titulos%20universitarios%20oficiales.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 897479,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:37.353273+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/Gu%C3%ADa%20r%C3%A1pida%20Registro.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 668734,
+    "depth": 3,
+    "timestamp": "2026-06-06T12:03:39.210586+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 53172,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:41.760785+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/convocatorias",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 36430,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:43.794228+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/preguntas-frecuentes",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 82673,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:46.419887+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/procedimiento",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 37492,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:48.266296+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/nacional",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 37514,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:50.281127+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/estrategia-internacionalizacion",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 44612,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:03:51.476957+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 30745,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:03:53.229093+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/grados/sellos-internacionales-calidad",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 36219,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:03:55.133959+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 36098,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:03:57.091122+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/practicas",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 32816,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:03:58.900266+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/infodestinos",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 123294,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:02.143596+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 48289,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:04.133442+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internaciona/salientes",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 31486,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:06.035023+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/reglamento",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 35128,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:07.877079+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Listado%20Tutores%20Actualizado_nov24.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 130992,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:09.218054+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Sesi%C3%B3n%20informativa%20plazas%20de%20destino%20ya%20asignadas_2627.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 1731744,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:11.637770+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Tutores%20movilidad%2026-27.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 128848,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:12.920032+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/movilidad/programas/internacional/salientes/manuales",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "html",
+    "bytes": 33304,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:14.750433+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/%C2%BFHe%20seguido%20bien%20todo%20el%20proceso.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 316330,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:16.202918+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Solicitud_CERTIFICACIONES_NUEVO_certificado%20europeo%20de%20estudios%20parciales.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 92596,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:17.483846+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Nacional_ETSIIT_2021.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 222234,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:18.896009+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Gu%C3%ADa%20estudiantes%20IN%2024-25.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 860479,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:21.080091+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Estrategia%20de%20Internacionalizaci%C3%B3n.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 806775,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:23.031107+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Info%20Destinos_2025-2026.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 609988,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:24.709195+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Texto%20Consolidado%20del%20Reglamento%20de%20movilidad%20internacional%20de%20estudiantes%20de%20la%20Universidad%20de%20Granada.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 486349,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:26.388027+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Reglamento_Reconocimiento_Internacional_ETSIIT_2024_publicado.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 254269,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:27.853856+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/ManualAcuerdoDeEstudios%20-%20editado_oct24.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 1516146,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:30.414539+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/manualmovilidad_editado_oct24.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 876579,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:32.389657+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/FAQ.%20Documentos%20a%20enviar%20a%20la%20Universidad%20de%20destino%20-ERASMUS-oct24.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 351557,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:33.896296+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/FAQ.%20Acuerdo%20de%20estudios%20y%20matr%C3%ADcula%20como%20estudiante%20de%20movilidad_oct24.pdf",
+    "status": "ok",
+    "category": "movilidad",
+    "type": "pdf",
+    "bytes": 452900,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:35.639724+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/trabajo-fin-grado",
+    "status": "ok",
+    "category": "tfg",
+    "type": "html",
+    "bytes": 32007,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:36.820182+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/pages/infoacademica/tfggestion2",
+    "status": "ok",
+    "category": "tfg",
+    "type": "html",
+    "bytes": 29198,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:38.279770+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/197/CABECERAS%20197_1.pdf",
+    "status": "ok",
+    "category": "tfg",
+    "type": "pdf",
+    "bytes": 520325,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:40.031976+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/docencia/trabajo-fin-grado",
+    "status": "ok",
+    "category": "tfg",
+    "type": "html",
+    "bytes": 34382,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:41.226305+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/estudiantes",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 31981,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:43.087754+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/estudiantes/practicas-empresa",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 37294,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:45.103542+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/estudiantes/neae",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 33603,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:46.290609+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/estudiantes/plan-accion-tutorial",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 41447,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:04:48.520681+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa/asignatura-practicas-empresa",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 40924,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:50.269583+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa/realizacion_practicas",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 32158,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:51.880102+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 32726,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:53.098256+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa/reconocimiento-practicas",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 32010,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:54.616374+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa/convalidacion-practicas",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 36681,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:04:56.163385+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/movilidad",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 32120,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:57.862455+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/acceso-admision",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 28472,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:04:59.468491+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 29659,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:01.168883+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/practicas-empresa/memoria_practicas",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 33780,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:02.354241+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/orientacion",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 30453,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:04.056508+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/sites/grados/informatica/public/ficheros/PracticasExternas/FAQ_practicas_empresa_etsiit.pdf",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "pdf",
+    "bytes": 1228594,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:06.160095+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/estudiantes/salidas-profesionales",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 29889,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:07.942563+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/ramas/ingenieria-arquitectura/grado-ingenieria-informatica/practicas-empresa/guia-docente",
+    "status": "ok",
+    "category": "estudiantes",
+    "type": "html",
+    "bytes": 50295,
+    "depth": 2,
+    "timestamp": "2026-06-06T12:05:09.653242+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/profesorado",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 594742,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:05:18.545903+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 46459,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:05:22.391350+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-ciencias-la-computacion-e-inteligencia-artificial",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 126185,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:25.772363+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-organizacion-empresas-ii",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 50731,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:28.128229+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-electronica-y-tecnologia-computadores",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 77567,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:30.615078+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-economia-financiera-y-contabilidad",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 50064,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:33.122915+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-matematica-aplicada",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 47399,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:35.383482+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-derecho-civil",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 34566,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:37.571916+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-fisica-aplicada",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 41534,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:40.215255+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-analisis-matematico",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 48881,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:42.450449+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-teoria-la-senal-telematica-y-comunicaciones",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 89937,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:45.115105+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-algebra",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 52803,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:47.199251+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-estadistica-e-investigacion-operativa",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 46539,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:49.687732+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-lenguajes-y-sistemas-informaticos",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 103094,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:52.308809+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-optica",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 37335,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:54.501331+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-ingenieria-computadores-automatica-y-robotica",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 93100,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:57.020545+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/docencia/departamentos/departamento-electromagnetismo-y-fisica-la-materia",
+    "status": "ok",
+    "category": "profesorado",
+    "type": "html",
+    "bytes": 36348,
+    "depth": 1,
+    "timestamp": "2026-06-06T12:05:59.068952+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/197/CABECERAS%20197_1.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 520325,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:00.636072+00:00"
+  },
+  {
+    "url": "https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/260/Bolet%C3%ADn%20Oficial%20de%20la%20Universidad%20de%20Granada%20n%C2%BA%20260_8.pdf",
+    "status": "ok",
+    "category": "normativa",
+    "type": "pdf",
+    "bytes": 980613,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:02.684513+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/texto-consolidado-normativa-evaluacion-calificacion-estudiantes-universidad-granada",
+    "status": "ok",
+    "category": "normativa",
+    "type": "html",
+    "bytes": 43432,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:03.848039+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/ncg1421-normativa-programas-conjuntos-estudios-oficiales-universidad-granada",
+    "status": "ok",
+    "category": "normativa",
+    "type": "html",
+    "bytes": 42333,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:05.524378+00:00"
+  },
+  {
+    "url": "https://www.ugr.es/universidad/normativa/acg1436-procedimiento-para-el-reconocimiento-de-la-acreditacion-de-lenguas",
+    "status": "ok",
+    "category": "normativa",
+    "type": "html",
+    "bytes": 41920,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:06.742499+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Directrices%20TFG%20de%20la%20ETSIIT.pdf",
+    "status": "ok",
+    "category": "tfg",
+    "type": "pdf",
+    "bytes": 56978,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:07.970615+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/docencia/plan-estudios",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 355518,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:09.198575+00:00"
+  },
+  {
+    "url": "https://grados.ugr.es/informatica/informacion/presentacion",
+    "status": "ok",
+    "category": "guias_docentes",
+    "type": "html",
+    "bytes": 44384,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:10.380276+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20Academico%202025-2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 57596,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:11.594000+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20TFG%202025-2026.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 61872,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:12.835863+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Horarios%20GII%20%2825-26%29.pdf",
+    "status": "ok",
+    "category": "calendario",
+    "type": "pdf",
+    "bytes": 142567,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:14.162903+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 219048,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:15.572184+00:00"
+  },
+  {
+    "url": "https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_3.pdf",
+    "status": "ok",
+    "category": "tramites",
+    "type": "pdf",
+    "bytes": 186085,
+    "depth": 0,
+    "timestamp": "2026-06-06T12:06:17.009956+00:00"
+  }
+]

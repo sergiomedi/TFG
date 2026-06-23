@@ -1,0 +1,297 @@
+============================================================
+INFORME DE CRAWL Y PROCESADO — GRAIA v2
+Fecha: 2026-06-06 14:07
+============================================================
+
+── CRAWL ──
+  Páginas descargadas:      252
+  HTML:                     186
+  PDF:                      66
+  Filtradas (global):       6
+  Filtradas (categoría):    871
+  Fallidas:                 2
+
+── CRAWL POR CATEGORÍA ──
+  calendario                11
+  estudiantes               17
+  guias_docentes            97
+  movilidad                 30
+  normativa                 13
+  profesorado               17
+  tfg                       4
+  tramites                  50
+
+── PROCESADO ──
+  Documentos válidos:       188
+  Errores de parsing:       0
+  Descartados (cleaner):    1
+  Descartados (min_chars):  7
+  Formularios descartados:  4
+  Índices descartados:      34
+  Duplicados eliminados:    18
+
+── CORPUS POR CATEGORÍA ──
+  calendario                10
+  estudiantes               13
+  guias_docentes            99
+  movilidad                 20
+  normativa                 13
+  profesorado               10
+  tfg                       2
+  tramites                  21
+
+── URLs DESCARGADAS ──
+  ✓ [html] [guias_docentes  ] (d=0) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-graficos-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/centros-procesamiento-datos-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-paralela-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/redes-y-sistemas-complejos-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-red-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-bases-datos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/circuitos-integrados-e-impresos-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/derecho-informatico/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/perifericos-y-dispositivos-interfaz-humana-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/recuperacion-informacion-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/mantenimiento-equipos-informaticos-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/seguridad-sistemas-operativos-especialidad-ingenieria-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-operativos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-sistemas-informacion-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/compresion-y-recuperacion-informacion-multimedia-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-tecnica-y-cientifica-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-emergentes-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/inteligencia-negocio-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-multidimensionales-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/transmision-datos-y-redes-computadores-especialidadtecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/animacion-ordenador-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/creacion-empresas-y-gestion-emprendedora/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologias-web-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/algebra-lineal-y-estructuras-matematicas/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-dispositivos-moviles-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-redes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-web-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-del-conocimiento-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/bases-datos-distribuidas-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-basado-agentes-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/computacion-ubicua-e-inteligencia-ambiental-especialidadtecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-multimedia-especialidadtecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/aprendizaje-automatico-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-empresa-y-sociedad/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-software-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-geografica-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-ludica-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/logica-y-metodos-discretos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estructura-datos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-basados-web-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-informacion-empresas-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/vision-computador-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/criptografia-y-computacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-y-desarrollo-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-y-diseno-orientado-objetos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-cooperativos-y-gestion-contenidos-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-aplicaciones-internet-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/administracion-bases-datos-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-sistemas-distribuidos-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/robotica-industrial-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/programacion-grafica-videojuegos-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-interfaces-usuario-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-y-computacion-altas-prestaciones-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-concurrentes-y-distribuidos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/gestion-recursos-digitales-especialidad-sistemas-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/procesadores-lenguajes-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/inteligencia-artificial/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/informatica-industrial-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/direccion-y-gestion-proyectos-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/teoria-la-informacion-y-la-codificacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-fisicos-y-tecnologicos/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/ingenieria-servidores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/informatica-grafica/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/practicas-empresa/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/simulacion-sistemas-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/etica-informatica-y-sociedad-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/infraestructura-virtual-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/arquitectura-sistemas-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estructura-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/calculo/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/diseno-sistemas-electronicos-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metodologia-la-programacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/modelos-computacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/nuevos-paradigmas-interaccion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/logica-y-programacion-especialidad-ingenieria-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/modelos-avanzados-computacion-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/estadistica/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/nuevas-tecnologias-la-programacion-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metaheuristicas-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnicas-los-sistemas-inteligentes-especialidad-computacion-y-sistemas-inteligentes/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/fundamentos-programacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-empotrados-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/metodologias-desarrollo-agil-especialidad-ingenieria-del-software/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/sistemas-microprocesadores-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/desarrollo-hardware-digital-especialidad-ingenieria-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/algoritmica/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/procesamiento-digital-senales-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/proyecto-fin-grado/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/servidores-web-altas-prestaciones-especialidadtecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tratamiento-imagenes-digitales-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/redes-multiservicio-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/tecnologia-y-organizacion-computadores/11/guia-docente
+  ✓ [html] [guias_docentes  ] (d=1) https://etsiit.ugr.es/informacion-academica/grados/graduadoa-ingenieria-informatica/seguridad-y-proteccion-sistemas-informaticos-especialidad-tecnologias-la-informacion/11/guia-docente
+  ✓ [html] [calendario      ] (d=0) https://etsiit.ugr.es/docencia/grados/calendario
+  ✓ [html] [calendario      ] (d=0) https://etsiit.ugr.es/docencia/grados/calendario-examenes
+  ✓ [html] [calendario      ] (d=0) https://etsiit.ugr.es/docencia/grados/horarios
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20TFG%202025-2026.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20Academico%202025-2026.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3n%20Aulas%20GII.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/CalendarioExamenes25-26-GII.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3nAulasGIIFebrero2026.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3nAulasGIIEnero2026.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Asignaci%C3%B3n%20Aulas%20GII%20Junio%202026.pdf
+  ✓ [pdf ] [calendario      ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Horarios%20GII%20%2825-26%29.pdf
+  ✓ [html] [normativa       ] (d=0) https://etsiit.ugr.es/la-escuela/documentos/normativa
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/RRC_ECTS_Grados.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Directrices%20TFG%20de%20la%20ETSIIT.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Graduacion_ETSIIT.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento%20del%20Consejo%20de%20Titulaci%C3%B3n%20de%20Inform%C3%A1tica.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento%20de%20Honores%20y%20Distinciones%20de%20la%20E.T.S.I.I.T.pdf
+  ✗ [?   ] [normativa       ] (d=1) https://www.ugr.es/universidad/normativa/ncs133-2-modificacion-normas-permanencia-estudiantado-ensenanzas-grado-master
+  ✓ [html] [normativa       ] (d=1) https://www.ugr.es/universidad/normativa/texto-consolidado-normativa-evaluacion-calificacion-estudiantes-universidad-granada
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Nacional_ETSIIT_2021_0.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ReglamentoRegimenInternoETSIIT.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Resoluci%C3%B3n%20TFG%20de%20la%20ETSIIT.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Internacional_ETSIIT_2021.pdf
+  ✓ [pdf ] [normativa       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Practicas_Externas_Grados.pdf
+  ✓ [pdf ] [normativa       ] (d=2) https://www.ugr.es/sites/default/files/2023-01/Texto%20consolidado%20de%20Normativa%20a%20de%20evaluaci%C3%B3n%20y%20de%20calificaci%C3%B3n%20de%20los%20estudiantes%20de%20la%20Universidad%20de%20Granada.pdf
+  ✓ [html] [tramites        ] (d=0) https://etsiit.ugr.es/la-escuela/presentacion/secretaria
+  ✓ [html] [tramites        ] (d=0) https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios
+  ✓ [html] [tramites        ] (d=0) https://etsiit.ugr.es/la-escuela/secretaria/impresos-formularios/tramites
+  ✓ [html] [tramites        ] (d=0) https://etsiit.ugr.es/la-escuela/secretaria/internacional
+  ✓ [html] [tramites        ] (d=0) https://etsiit.ugr.es/la-escuela/secretaria/registro-electronico
+  ✗ [?   ] [tramites        ] (d=1) https://etsiit.ugr.es/la-escuela/secretaria/registro
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_1.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_0.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_3.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_2.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_7.pdf
+  ✓ [html] [tramites        ] (d=1) https://www.ugr.es/universidad/normativa/acg1436-procedimiento-para-el-reconocimiento-de-la-acreditacion-de-lenguas
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_6.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_4.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_5.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26_3.pdf
+  ✓ [html] [tramites        ] (d=1) https://secretariageneral.ugr.es/areas-gestion/normativa-resoluciones-rector
+  ✓ [pdf ] [tramites        ] (d=1) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/260/Bolet%C3%ADn%20Oficial%20de%20la%20Universidad%20de%20Granada%20n%C2%BA%20260_8.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/216_0.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/296_0.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_4.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/221_0.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/296%20OPTATIVAS.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/CAMBIO%20DE%20GRUPO_6_2.pdf
+  ✓ [pdf ] [tramites        ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/297_0.pdf
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/pages/convenios
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/informacion
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/informacion/servicios
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/areas-gestion/convenios
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/areas-gestion
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/unidades
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/areas-gestion/normativa-resoluciones-rector/normativa
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/unidades/titulos
+  ✓ [html] [tramites        ] (d=2) https://secretariageneral.ugr.es/unidades/oficina-asistencia-materia-registro
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/areas-gestion/convenios/modelos-formularios
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/informacion/servicios/organos-gobierno
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/informacion/servicios/otros-honores-distinciones-actos-academicos
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/informacion/servicios/calendarios-academicos
+  ✓ [pdf ] [tramites        ] (d=3) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2025%20Gu%C3%ADa%20SET.pdf
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/localizacion-contacto
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/expedicion-titulos
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/informacion-relacionada
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/expedicion-titulos-pretitulos
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/solicitudes
+  ✓ [pdf ] [tramites        ] (d=3) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2026%20Gu%C3%ADa%20titulos%20universitarios%20oficiales.pdf
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/enlaces-interes
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/miembros-equipo
+  ✓ [html] [tramites        ] (d=3) https://secretariageneral.ugr.es/unidades/titulos/preguntas-frecuentes
+  ✓ [pdf ] [tramites        ] (d=3) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/2025%20Gu%C3%ADa%20titulos%20universitarios%20oficiales.pdf
+  ✓ [pdf ] [tramites        ] (d=3) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/ficheros/Gu%C3%ADa%20r%C3%A1pida%20Registro.pdf
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/programas/internacional/salientes
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/convocatorias
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/preguntas-frecuentes
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/procedimiento
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/programas/nacional
+  ✓ [html] [movilidad       ] (d=0) https://etsiit.ugr.es/movilidad/estrategia-internacionalizacion
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/docencia/grados/sellos-internacionales-calidad
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/practicas
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/infodestinos
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/internacional
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/internaciona/salientes
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/reglamento
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Listado%20Tutores%20Actualizado_nov24.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Sesi%C3%B3n%20informativa%20plazas%20de%20destino%20ya%20asignadas_2627.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Tutores%20movilidad%2026-27.pdf
+  ✓ [html] [movilidad       ] (d=1) https://etsiit.ugr.es/movilidad/programas/internacional/salientes/manuales
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/%C2%BFHe%20seguido%20bien%20todo%20el%20proceso.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Solicitud_CERTIFICACIONES_NUEVO_certificado%20europeo%20de%20estudios%20parciales.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Reglamento_Reconocimiento_Nacional_ETSIIT_2021.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Gu%C3%ADa%20estudiantes%20IN%2024-25.pdf
+  ✓ [pdf ] [movilidad       ] (d=1) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Estrategia%20de%20Internacionalizaci%C3%B3n.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Info%20Destinos_2025-2026.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Texto%20Consolidado%20del%20Reglamento%20de%20movilidad%20internacional%20de%20estudiantes%20de%20la%20Universidad%20de%20Granada.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/Reglamento_Reconocimiento_Internacional_ETSIIT_2024_publicado.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/ManualAcuerdoDeEstudios%20-%20editado_oct24.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/manualmovilidad_editado_oct24.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/FAQ.%20Documentos%20a%20enviar%20a%20la%20Universidad%20de%20destino%20-ERASMUS-oct24.pdf
+  ✓ [pdf ] [movilidad       ] (d=2) https://etsiit.ugr.es/sites/centros/etsiit/public/ficheros/docmovilidad/FAQ.%20Acuerdo%20de%20estudios%20y%20matr%C3%ADcula%20como%20estudiante%20de%20movilidad_oct24.pdf
+  ✓ [html] [tfg             ] (d=0) https://etsiit.ugr.es/docencia/trabajo-fin-grado
+  ✓ [html] [tfg             ] (d=0) https://grados.ugr.es/informatica/pages/infoacademica/tfggestion2
+  ✓ [pdf ] [tfg             ] (d=1) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/197/CABECERAS%20197_1.pdf
+  ✓ [html] [tfg             ] (d=1) https://grados.ugr.es/informatica/docencia/trabajo-fin-grado
+  ✓ [html] [estudiantes     ] (d=0) https://etsiit.ugr.es/estudiantes
+  ✓ [html] [estudiantes     ] (d=0) https://etsiit.ugr.es/estudiantes/practicas-empresa
+  ✓ [html] [estudiantes     ] (d=0) https://etsiit.ugr.es/estudiantes/neae
+  ✓ [html] [estudiantes     ] (d=0) https://etsiit.ugr.es/estudiantes/plan-accion-tutorial
+  ✓ [html] [estudiantes     ] (d=1) https://grados.ugr.es/informatica/estudiantes/practicas-empresa/asignatura-practicas-empresa
+  ✓ [html] [estudiantes     ] (d=1) https://grados.ugr.es/informatica/estudiantes/practicas-empresa/realizacion_practicas
+  ✓ [html] [estudiantes     ] (d=1) https://grados.ugr.es/informatica/estudiantes/practicas-empresa
+  ✓ [html] [estudiantes     ] (d=1) https://grados.ugr.es/informatica/estudiantes/practicas-empresa/reconocimiento-practicas
+  ✓ [html] [estudiantes     ] (d=1) https://grados.ugr.es/informatica/estudiantes/practicas-empresa/convalidacion-practicas
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes/movilidad
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes/acceso-admision
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes/practicas-empresa/memoria_practicas
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes/orientacion
+  ✓ [pdf ] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/sites/grados/informatica/public/ficheros/PracticasExternas/FAQ_practicas_empresa_etsiit.pdf
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/informatica/estudiantes/salidas-profesionales
+  ✓ [html] [estudiantes     ] (d=2) https://grados.ugr.es/ramas/ingenieria-arquitectura/grado-ingenieria-informatica/practicas-empresa/guia-docente
+  ✓ [html] [profesorado     ] (d=0) https://etsiit.ugr.es/docencia/profesorado
+  ✓ [html] [profesorado     ] (d=0) https://etsiit.ugr.es/docencia/departamentos
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-ciencias-la-computacion-e-inteligencia-artificial
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-organizacion-empresas-ii
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-electronica-y-tecnologia-computadores
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-economia-financiera-y-contabilidad
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-matematica-aplicada
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-derecho-civil
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-fisica-aplicada
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-analisis-matematico
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-teoria-la-senal-telematica-y-comunicaciones
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-algebra
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-estadistica-e-investigacion-operativa
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-lenguajes-y-sistemas-informaticos
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-optica
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-ingenieria-computadores-automatica-y-robotica
+  ✓ [html] [profesorado     ] (d=1) https://etsiit.ugr.es/docencia/departamentos/departamento-electromagnetismo-y-fisica-la-materia
+  ✓ [pdf ] [normativa       ] (d=0) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/197/CABECERAS%20197_1.pdf
+  ✓ [pdf ] [normativa       ] (d=0) https://secretariageneral.ugr.es/sites/webugr/secretariageneral/public/inline-files/BOUGR/260/Bolet%C3%ADn%20Oficial%20de%20la%20Universidad%20de%20Granada%20n%C2%BA%20260_8.pdf
+  ✓ [html] [normativa       ] (d=0) https://www.ugr.es/universidad/normativa/texto-consolidado-normativa-evaluacion-calificacion-estudiantes-universidad-granada
+  ✓ [html] [normativa       ] (d=0) https://www.ugr.es/universidad/normativa/ncg1421-normativa-programas-conjuntos-estudios-oficiales-universidad-granada
+  ✓ [html] [normativa       ] (d=0) https://www.ugr.es/universidad/normativa/acg1436-procedimiento-para-el-reconocimiento-de-la-acreditacion-de-lenguas
+  ✓ [pdf ] [tfg             ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Directrices%20TFG%20de%20la%20ETSIIT.pdf
+  ✓ [html] [guias_docentes  ] (d=0) https://grados.ugr.es/informatica/docencia/plan-estudios
+  ✓ [html] [guias_docentes  ] (d=0) https://grados.ugr.es/informatica/informacion/presentacion
+  ✓ [pdf ] [calendario      ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20Academico%202025-2026.pdf
+  ✓ [pdf ] [calendario      ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Calendario%20TFG%202025-2026.pdf
+  ✓ [pdf ] [calendario      ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/Horarios%20GII%20%2825-26%29.pdf
+  ✓ [pdf ] [tramites        ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/PLAZOS%20DE%20INTERES%20CURSO%202025-26.pdf
+  ✓ [pdf ] [tramites        ] (d=0) https://etsiit.ugr.es/sites/centros/etsiit/public/inline-files/ADMISI%C3%93N%20A%20ESTUDIOS%20DE%20GRADO_2_3.pdf
