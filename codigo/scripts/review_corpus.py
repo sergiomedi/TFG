@@ -34,6 +34,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote
 
+# Forzar codificación UTF-8 en la salida estándar. En Windows la consola usa
+# por defecto cp1252, que no puede representar caracteres Unicode como los de
+# dibujo de cajas (U+2500 «─») ni algunos acentos, provocando UnicodeEncodeError.
+for _stream in (sys.stdout, sys.stderr):
+    reconfigure = getattr(_stream, "reconfigure", None)
+    if reconfigure is not None:
+        reconfigure(encoding="utf-8", errors="replace")
+
 # Añadir el directorio raíz del proyecto al path (para imports de graia)
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 

@@ -27,6 +27,15 @@ Tras inyectar, reindexar:  python scripts/index_corpus.py
 
 from __future__ import annotations
 
+# Forzar codificación UTF-8 en la salida estándar. En Windows la consola usa
+# por defecto cp1252, que no puede representar caracteres Unicode como los de
+# dibujo de cajas (U+2500 «─») ni algunos acentos, provocando UnicodeEncodeError.
+import sys as _sys
+for _stream in (_sys.stdout, _sys.stderr):
+    _reconfigure = getattr(_stream, "reconfigure", None)
+    if _reconfigure is not None:
+        _reconfigure(encoding="utf-8", errors="replace")
+
 import argparse
 import json
 import shutil

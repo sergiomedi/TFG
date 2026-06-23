@@ -128,7 +128,8 @@ def run_script(args: list[str], timeout: int = 1800) -> tuple[int, str]:
     cmd = [sys.executable, *args]
     try:
         proc = subprocess.run(
-            cmd, cwd=str(ROOT), capture_output=True, text=True, timeout=timeout,
+            cmd, cwd=str(ROOT), capture_output=True, timeout=timeout,
+            encoding="utf-8", errors="replace",
         )
         out = proc.stdout or ""
         if proc.stderr:
