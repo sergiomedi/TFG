@@ -568,26 +568,37 @@ def render_admin_panel(cfg: dict) -> None:
         inj_title = st.text_input("Título mostrado en las citas", key="adm_inj_title")
         c1, c2 = st.columns(2)
         with c1:
-            inj_tipo = st.text_input("Tipo", value="horario", key="adm_inj_tipo")
+            inj_cat = st.text_input(
+                "Categoría (obligatoria, p.ej. movilidad, normativa, tramites)",
+                key="adm_inj_cat",
+            )
         with c2:
-            inj_cat = st.text_input("Categoría (opcional)", key="adm_inj_cat")
+            inj_tipo = st.selectbox(
+                "Tipo estructurado (opcional)",
+                options=["(ninguno)", "horario", "calendario", "plan_estudios"],
+                index=0,
+                help="Solo para horario/calendario/plan de estudios (troceo por registro). "
+                     "Déjalo en «(ninguno)» para un documento verificado normal.",
+                key="adm_inj_tipo",
+            )
         inj_file = st.file_uploader(
-            "Documento verificado (.txt, un registro por línea)",
+            "Documento verificado (.txt). Para los tipos estructurados, un registro por línea.",
             type=["txt"], key="adm_inj_file",
         )
         if st.button("Incorporar documento", key="adm_inj_btn"):
-            if not (inj_url.strip() and inj_file is not None):
-                st.warning("Indica la URL y selecciona el fichero .txt verificado.")
+            if not (inj_url.strip() and inj_file is not None and inj_cat.strip()):
+                st.warning("Indica la URL, la categoría y selecciona el fichero .txt verificado.")
             else:
                 tmp = ROOT / "data" / "verificado" / "_admin_inject.txt"
                 tmp.parent.mkdir(parents=True, exist_ok=True)
                 tmp.write_bytes(inj_file.getvalue())
                 args = ["scripts/inject_doc.py", "--url", inj_url,
-                        "--text", "data/verificado/_admin_inject.txt", "--tipo", inj_tipo]
+                        "--text", "data/verificado/_admin_inject.txt",
+                        "--category", inj_cat.strip()]
+                if inj_tipo != "(ninguno)":
+                    args += ["--tipo", inj_tipo]
                 if inj_title.strip():
                     args += ["--title", inj_title]
-                if inj_cat.strip():
-                    args += ["--category", inj_cat]
                 _run_and_report("Inserción de documento verificado", args, timeout=300)
 
     # ── Revisar el corpus (CU-04 / RF-06) ───────────────────────────────────
@@ -728,7 +739,6 @@ def main() -> None:
     # Panel lateral con historial de conversaciones (Figura 5.2)
     render_sidebar()
 
-    # Renderizar historial del chat activo
     render_history()
 
     # Entrada del usuario
